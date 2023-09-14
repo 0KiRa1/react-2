@@ -149,7 +149,35 @@
 
 
 
-//  -----------Server side rendering----------
+//  -----------Server side rendering and client side rendering----------
+// "use client"
+// import axios from 'axios'
+// import React, { useState } from 'react'
+
+// const page = () => {
+//   const [num, setnum] = useState(10)
+//   const [userdata, setuserdata] = useState("hello")
+
+//   const getData = async()=>{
+//     const response = await axios.get("https://picsum.photos/v2/list")
+//     const a = JSON.stringify(response.data)
+//     setuserdata(a)
+//   }
+//   return (
+//     <div className='p-20'>
+//       {num} 
+//       <br></br>
+//       <button onClick={getData} className='px-6 py-2 bg-green-500 text-white font-bold rounded'>Click</button>
+//       <br/>
+//       {userdata}
+//     </div>
+//   )
+// }
+
+// export default page
+
+
+// ------Deployment via Netlify--------
 
 import React from 'react'
 
@@ -162,5 +190,6 @@ const page = () => {
 }
 
 export default page
+
 
 
