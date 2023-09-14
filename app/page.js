@@ -44,7 +44,7 @@
 // export default page
 
 
-// ---------------Api Fetching and useEffect----------------
+// ---------------Api Calling and useEffect----------------
 
 // "use client"
 // import axios from 'axios'
@@ -184,7 +184,7 @@ import React from 'react'
 const page = () => {
   return (
     <div>
-      Home
+      Deployment
     </div>
   )
 }
